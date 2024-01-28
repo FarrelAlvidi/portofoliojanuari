@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AlvJourney</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <body>
+
+    <div class="container-fluid1 bg-body-tertiary pb-5">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light shadow-sm">
+            <div class="container pt-2 pb-2">
+            <a class="navbar-brand fw-bold" href="#">AlvJourney</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-3">
+                <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="#">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#about">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#lokasi">Destinasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#layanan">Layanan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimoni">Testimoni</a>
+                </li>
+                </ul>
+                    <a class="nav-link rounded-5 p-2 px-3 text-light" href="pesan-form.html" style="background-color: #5FBDFF;">Book Now</a>
+            </div>
+            </div>
+        </nav>
+
+        <div class="container d-flex justify-content-between mt-5">
+            <div class="">
+                <h2 class="display-5 fw-bold pt-5 mt-5">Discover Your Next <br><a style="color: #5FBDFF;">Adventure</a>, Unleash The Journey!</h2>
+                <p class="mt-3">Menciptakan rasa penasaran dan keingintahuan bagi pengguna untuk menemukan pengalaman perjalanan baru. Kata "Discover" menyoroti aspek eksplorasi dan penemuan.</p>
+                <div class="mb-3 d-flex pt-3">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Pencarian" style="width: 250px; height: 40px;">
+                    <button type="submit" class="btn btn-primary mb-3 ms-2"><i class="fi fi-rr-search"></i></button>
+                  </div>
+            </div>
+            <div class="pt-5 ms-5">
+                <img src="banner-image-1.svg" alt="" style="width: 550px;">
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="container d-flex justify-content-between gap-5" id="about">
+            <div class="pt-5 ms-5">
+                <img src="local-tourism-concept_23-2148606915.jpg" alt="" style="width: 420px;">
+            </div>
+            <div class="pt-5 ">
+                <h2 class="display-5 fw-bold pt-5 mt-5">Agensi Travel  <a style="color: #5FBDFF;">Terbaik</a> <br>Di Dunia</h2>
+                <p class="mt-4">Selamat datang di agensi travel pemenang penghargaan kami, diakui sebagai yang terbaik di dunia! Dengan dedikasi tak terbatas untuk memberikan pengalaman liburan tak tertandingi, kami membanggakan diri sebagai agensi yang memadukan keahlian tingkat tinggi, layanan pelanggan luar biasa, dan destinasi eksklusif.</p>
+                <div class="d-flex pt-2 justify-content-between ">
+                    <div class=" gap-5">
+                        <h2 class="fw-bold">800+</h2>
+                        <p class=" text-secondary fw-bold" style="font-size: 14px;">Total <br>Destinasi</p>
+                    </div>
+                    <div class=" gap-5 ms-5">
+                        <h2 class="fw-bold ">20+</h2>
+                        <p class=" text-secondary fw-bold" style="font-size: 14px;">Tahun <br>Pengalaman</p>
+                    </div>
+                    <div class=" gap-5 ms-5">
+                        <h2 class="fw-bold ">15K+</h2>
+                        <p class=" text-secondary fw-bold" style="font-size: 14px;">Total <br>Wisatawan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="destination container-fluid bg-body-tertiary pb-5" id="lokasi">  
+        <div class="container pt-5 pb-5">
+            
+            <h1 class="text-center fw-bold pb-2 ">Destinasi Terpopuler</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card_container">
+                        <article class="card_article shadow-rounded">
+                        <img src="ed00654244575aeea5af713241b1f057-scaled.webp" alt="" class="card_img">
+                
+                        <div class="card_data">
+                            <h5 class="card_description">Amanohashidate</h5>
+                            <p class="card_title">Jepang</p>
+                            <p class="text-success">$302,3</p>
+                            <p class="text-secondary"><i class="fa-solid fa-plane"></i> Wisata </p>
+                            <p class="text-secondary"><i class="fa-solid fa-bowl-food"></i> Delicio food</p>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card_container">
+                        <article class="card_article">
+                        <img src="425e658f-261b-4aa8-980e-dcb4ab347446.webp" alt="" class="card_img">
+                
+                        <div class="card_data ">
+                            <h5 class="card_description">Phang nga bay</h5>
+                            <h2 class="card_title">Thailand</h2>
+                            <p class="text-success">$208,9</p>
+                            <p class="text-secondary"><i class="fa-solid fa-ship"></i> Ship </p>
+                            <p class="text-secondary"><i class="fa-solid fa-plant-wilt"></i> Plant</p>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card_container">
+                        <article class="card_article">
+                        <img src="Sahale-Glacier-Backpacking-North-Cascades-National-Park-The-Mandagies-DAY-3-18-1500x1000.jpg" alt="" class="card_img">
+                
+                        <div class="card_data">
+                            <h5 class="card_description">North Cascades National Park</h5>
+                            <h2 class="card_title">Amerika Serikat</h2>
+                            <p class="text-success">$208,9</p>
+                            <p class="text-secondary"><i class="fa-solid fa-plane"></i> Wisata </p>
+                            <p class="text-secondary"><i class="fa-solid fa-bowl-food"></i> Delicio food</p>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card_container">
+                        <article class="card_article">
+                        <img src="4D2A4331_0.jpg" alt="" class="card_img">
+                
+                        <div class="card_data">
+                            <h5 class="card_description">Bali</h5>
+                            <h2 class="card_title">Indonesia</h2>
+                            <p class="text-success">$208,9</p>
+                            <p class="text-secondary"><i class="fa-solid fa-plane"></i> Wisata </p>
+                            <p class="text-secondary"><i class="fa-solid fa-bowl-food"></i> Delicio food</p>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card_container">
+                        <article class="card_article">
+                        <img src="b5f9a1d1-20b1-4944-9843-cc034d731b9d.avif" alt="" class="card_img">
+                
+                        <div class="card_data">
+                            <h5 class="card_description">Paris</h5>
+                            <h2 class="card_title">Prancis</h2>
+                            <p class="text-success">$208,9</p>
+                            <p class="text-secondary"><i class="fa-solid fa-plane"></i> Wisata </p>
+                            <p class="text-secondary"><i class="fa-solid fa-bowl-food"></i> Delicio food</p>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div> 
+    </div>
+
+    <div class="container mt-5 pb-5" id="layanan">
+        <h1 class="fw-bold text-center">Layanan</h1>
+        <p class="text-center">Tim pelayanan pelanggan kami siap membantu Anda <br>dengan setiap pertanyaan atau permintaan.</p>
+        
+        <div class="d-flex mt-5 gap-5 justify-content-between pt-5">
+            <div class="text-center">           
+                <i class="fi fi-ss-team-check-alt" style="font-size: 50px; color: #5FBDFF;"></i>
+                <h5 class="mt-5 mb-3">Support Team</h5>
+                <p class="text-secondary">Dengan layanan pelanggan yang ramah dan responsif, kami di sini untuk memastikan bahwa setiap detail perjalanan Anda dengan Alvidi berjalan dengan lancar</p>
+            </div>
+            <div class="text-center">           
+                <i class="fi fi-sr-ticket-airline " style="font-size: 50px; color: #5FBDFF;"></i>
+                <h5 class="mt-5 mb-3">Pemesanan Tiket dan Akomodasi</h5>
+                <p class="text-secondary">Menyediakan platform untuk memesan tiket transportasi dan akomodasi hotel secara mudah dan cepat. Pelanggan dapat memilih opsi terbaik sesuai anggaran dan kebutuhan perjalanan mereka.</p>
+            </div>            
+            <div class="text-center">           
+                <i class="fi fi-sr-following" style="font-size: 50px; color: #5FBDFF;"></i>
+                <h5 class="mt-5 mb-3">Paket Ramah Lingkungan</h5>
+                <p class="text-secondary">Fokus pada perjalanan berkelanjutan dan ramah lingkungan. Menyediakan paket wisata yang meminimalkan dampak lingkungan dan mendukung komuntias lokal.</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="bg_img container-fluid" s>
+        <div class="container">
+            <div class="d-flex justify-content-between pt-5">
+                <h1 class="fw-bold text-light mt-3">Hubungi Tim <br>Layanan Pelanggan Kami</h1>
+                <button type="button" class="btn btn-light mt-5 fw-bold" style="height: 50px; width: 150px; color: #5FBDFF;">HUBUNGI KAMI</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-body-tertiary pb-5 pt-3" id="testimoni">
+        <div class="container pt-5 pb-5">
+            <h1 class="text-center fw-bold">Testimoni Klien</h1>
+            <div class="testimoni d-flex gap-5">
+                <div class="item testimonial-kard pt-5">
+                    <main class="test-card-body bg-light text-dark rounded-3 shadow-lg p-4" style="width: 600px; height: 240px;">
+                    <div class="quote d-flex gap-4">
+                        <i class="fa fa-quote-left" style="font-size: 40px;"></i>
+                        <h4 class="mt-1">Pelayan Luar Biasa</h4>
+                    </div>
+                    <p class="text-secondary">Saya baru saja pulang dari liburan luar biasa bersama AlvJourney. Pelayanan mereka sungguh luar biasa! Tim kami diurus dengan sangat baik, dan destinasi yang dipilih sangat memukau. Saya sangat merekomendasikan mereka untuk liburan Anda!"</p>
+                    <div class="rating text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    </main>
+                    <div class="profile d-flex gap-3 mt-3">
+                    <div class="profile-img">
+                        <img src="e77i0cj3Xs4qgb3YgkzPKH30qwlZ79pjPAl5YGt4.webp" class="rounded-circle" style="width: 80px;">
+                    </div>
+                    <div class="profile-name mt-2">
+                        <h4 class="">Jonathan Joestar</h4>
+                        <p>Fighter</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="item testimonial-kard pt-5">
+                    <main class="test-card-body bg-light text-dark rounded-3 shadow-lg p-4" style="width: 600px; height: 240px;">
+                    <div class="quote d-flex gap-4">
+                        <i class="fa fa-quote-left" style="font-size: 40px;"></i>
+                        <h4 class="mt-1">Pelayanan Luar Biasa</h4>
+                    </div>
+                    <p class="text-secondary">"Saya ingin mengucapkan terima kasih kepada tim layanan pelanggan AlvJourney. Mereka sangat responsif dan membantu saya dengan pertanyaan saya sepanjang proses pemesanan. Layanan pelanggan yang hebat!"</p>
+                    <div class="rating text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    </main>
+                    <div class="profile d-flex gap-3 mt-3">
+                    <div class="profile-img">
+                        <img src="kelly-sikkema.jpg" class="rounded-circle" style="width: 80px;">
+                    </div>
+                    <div class="profile-name mt-2">
+                        <h4 class="">Kelly Sikkema</h3>
+                        <p>Web Designer</p>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                  
+    </div>
+
+
+
+
+    <div class= "mt-5 pt-5">
+        <div class="container pt-3">
+            <h1 class="fw-bold">POPULER DI SELURUH DUNIA</h1>
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                <div class="image-container col">
+                    <img src="photo-1688884886438-502059ec4028 (1).avif" class="w-100 rounded-3">
+                    <div class="overlay">
+                        <p class="img-text">Italy</p>
+                    </div>
+                </div>
+                <div class="image-container col">
+                    <img src="photo-1623388724558-2efd95ad32fe.avif" class="w-100 rounded-3 shadow" style="height: 308px;">
+                </div>
+                <div class="image-container col">
+                    <img src="photo-1618283051909-d466ec431742.avif" class="w-100 rounded-3" style="height: 308px;">
+                </div>
+                </div>
+                <div class="row mt-3 ">
+                    <div class="col image-container col">
+                        <img src="photo-1629273512865-02d491a5faaa.avif" class="w-100 rounded-3" style="height: 308px;">
+                    </div>
+                    <div class="col image-container col">
+                        <img src="photo-1483729558449-99ef09a8c325.avif" class="w-100 rounded-3" style="height: 308px;">
+                    </div>
+                    <div class="col image-container col">
+                        <img src="photo-1564507592333-c60657eea523.avif" class="w-100 rounded-3" style="height: 308px;">
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer container-fluid bg-info pb-5 mt-5">
+        <div class="footer-content">
+            <h5 class="fw-bold mb-3">ALVJOURNEY.</h5>
+            <p style="color: #bebebe;">Layanan Kami selalu Terbaik, <br>Jangan Lupa berikan feedback.</p>
+            <div class="icon">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+            <div class="footer-content">
+                <h5 class="fw-bold mb-3">Tentang Kami</h5>
+                <li><a href="">Tentang Kami</a></li>
+                <li><a href="">Komuntias Blog</a></li>
+                <li><a href="">Kontak</a></li>
+            </div>           
+            <div class="footer-content">
+                <h5 class="fw-bold mb-3">Company</h5>
+                <li><a href="">Work</a></li>
+                <li><a href="">Security</a></li>
+                <li><a href="">Selling</a></li>
+            </div>
+            <div class="footer-content">
+                <h5 class="fw-bold mb-3">Eksplor</h5>
+                <li><a href="">Akun</a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="">Partner Kami</a></li>
+            </div>
+            <div class="footer-content">
+                <h5 class="fw-bold mb-3">Help</h5>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Condition</a></li>
+                <li><a href="">FAQs</a></li>
+            </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            clickable: true,
+        },
+        });
+    </script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: "auto",
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+
+    </body>
+</html>
+
+
+
+
