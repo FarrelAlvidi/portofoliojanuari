@@ -24,6 +24,15 @@ body{
   filter: brightness(60%);
   transition: .5s;
 }
+.img_hero{
+  position: relative;
+  animation: Move 3s linear infinite;
+}
+@keyframes Move {
+  0% {top: 0px;}
+  50% {top: 30px;}
+  100% {top: 0px;}
+ }
 .card-img{
   box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
   border-radius: 1rem;
